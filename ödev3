@@ -1,0 +1,8 @@
+soru 1
+select country from country where country like 'A%' and country like '%a'
+soru 2
+select country from country where length(country)>=6 and country like '%n'
+soru 3
+select title  from film where length(title)>=4 or title ilike '%t%'
+soru 4
+select * from film where title like 'C%' and length(title)>90 and rental_rate=2.99
